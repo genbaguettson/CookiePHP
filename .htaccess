@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /CookiePHP/
+RewriteCond %{REQUEST_FILENAME} !-f [OR]
+RewriteCond %{REQUEST_URI} !^/CookiePHP/(webroot/.+|index.php|robots.txt)$
+RewriteRule ^ index.php [QSA,L]
