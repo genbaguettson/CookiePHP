@@ -13,6 +13,7 @@ class Core {
         // Get Controller and Action strings from Router
         $routeInfo = Router::get($currentRoute);
 
+        // Set strings from values
         $controllerName = 'Controller\\'.ucfirst($routeInfo['controller']).'Controller';
         $controllerAction = strtolower($routeInfo['action']).'Action';
 

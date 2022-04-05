@@ -6,7 +6,7 @@ require_once(join(DIRECTORY_SEPARATOR, ['Core', 'autoload.php']));
 
 try {
     $app = new Core\Core();
-    $app->dynamicRun();
+    $app->run();
 } catch (Exception $e) {
     echo $e->getMessage(), "\n";
 }

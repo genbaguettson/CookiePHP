@@ -5,10 +5,9 @@ namespace Controller;
 class UserController extends \Core\Controller {
     function __construct() {
         parent::__construct();
-        echo "And I am ".__CLASS__." !";
     }
 
     function addAction() {
-        echo "And I am ".__FUNCTION__." !";
+        $this->render('register');
     }
 }
