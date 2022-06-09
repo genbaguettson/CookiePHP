@@ -1,2 +1,2 @@
 # CookiePHP
-We out here making custom PHP frameworks for kicks
+Work In Progress reproduction of a homemade PHP Framework
